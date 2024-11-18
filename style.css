@@ -1,0 +1,67 @@
+body{
+    height: 667px;
+    width: 375px;
+    background-color: hsl(217, 54%, 11%);
+}
+#main-box{
+    width: 340px;
+    background-color: hsl(216, 50%, 16%);
+    margin: 10px;
+    padding: 15px;
+    color:  hsl(215, 51%, 70%);
+    border-radius: 15px;
+}
+#box1 img{
+    width: 325px;
+    border-radius: 15px;
+}
+#box1 img:hover{
+    background-image: url(/images/icon-view.svg);
+    background-color: hsl(178, 100%, 50%);
+}
+#box1{
+    padding: 10px;
+}
+h1{
+    color: white;
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+b{
+    color: white;
+}
+b:hover{
+    color:hsl(178, 100%, 50%);
+}
+#box4 img{
+    height: 45px;
+    width: 45px;
+    border: 1px solid;
+    border-radius: 25px;
+    border-color: white;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+#list2{
+    margin-right: 55px;
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+    font-size: large;
+}
+#list1{
+    font-weight: bold;
+}
+
+/* Larger screen */
+@media (min-width:1200px) {
+    body{
+        height: 900px;
+        width: 1440px;
+    }
+    #main-box{
+        margin: 25px 525px;
+    }
+}
